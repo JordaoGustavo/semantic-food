@@ -14,7 +14,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 Follow these steps to set up the project:
 
-1. **Clone the Repository** 
+1. **Venv** 
    ```bash
       python -m venv venv
       source venv/bin/activate   # On Windows use `venv\Scripts\activate`
