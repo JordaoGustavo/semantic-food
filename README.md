@@ -16,16 +16,14 @@ Follow these steps to set up the project:
 
 1. **Clone the Repository** 
    ```bash
-  python -m venv venv
-  source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+      python -m venv venv
+      source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
 2. **Install Dependencies**
-   ```bash
-  make requirements
+   ```bash make requirements
 
 3. **Create a .env File**
-  mongo_srv=''
+  ```bash mongo_srv=''
 
 4. **Running**
-   ```bash
-  make server
+   ```bash  make server
