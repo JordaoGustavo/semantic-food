@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "content_description_embedding": {
+        "dimensions": 384,
+        "similarity": "cosine",
+        "type": "knnVector"
+      }
+    }
+  }
+}
