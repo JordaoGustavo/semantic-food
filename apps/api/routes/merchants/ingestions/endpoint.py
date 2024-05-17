@@ -94,8 +94,8 @@ def injest(merchantType):
 
 
 def fetch_contents(page_id, title, repository: MerchantIngestRepository, embedding_service: LLMService):
-    location = "latitude=YourLocation&longitude=YouLocation}"
-    url = 'https://marketplace.ifood.com.br/v1/page/{}?&channel=IFOOD'.format(page_id)
+    location = "latitude=YourLocation&longitude=YouLocation"
+    url = 'https://marketplace.ifood.com.br/v1/page/{}?{}&channel=IFOOD'.format(page_id, location)
     headers = {
         'content-type': 'application/json',
     }
